@@ -26,7 +26,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
                 $_SESSION['email'] = $usuario['email'];
             }
             
-            header("Location: Autenticado.php");
+            header("Location: inicial2.php");
 
         } else {
             echo "Falha ao logar! E-mail ou senha incorretos";

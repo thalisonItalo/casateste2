@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $valores[] ="'" . $value . "'";
     }
 
-    $colunas = implode(',',$colunas); //, virgyula nos finais do arary
+    $colunas = implode(',',$colunas); //, virgula nos finais do arary
     $valores = implode(',',$valores);
 
       //query para inserir dentro do banco de dados

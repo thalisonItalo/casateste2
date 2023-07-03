@@ -32,14 +32,14 @@
 /* Inicio login */
 .container{
     margin-top: 100px;
-    width: 60%;
+    width: 90%;
     height: 60vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 } 
 
 .form-image{
-    width: 100%;
+    width: 300%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +65,7 @@
 
 .form-header h1{
     color: #22223b;
+    margin-left: 240px;
 }
 
 .form-header h1::after{
@@ -75,7 +76,8 @@
     background-color: #22223b;
     margin: 0 auto;
     position: absolute;
-    border-radius: 10px
+    border-radius: 10px;
+    margin-left: -36px;
 } 
 
 .input-group{
@@ -84,7 +86,7 @@
 } 
 
 .input-box{
-    margin-right: 100px;
+    margin-right: 80px;
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
@@ -97,6 +99,7 @@
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
+    margin-left: 80px;
 } 
 
 .input-box input:hover{
@@ -108,9 +111,10 @@
 }
 
 .input-box label{
-    font-size: 0.75rem;
+    font-size: 0.90rem;
     font-weight: 600;
     color: #000000c0;
+    margin-left: 100px;
 } 
 
 .input-box input::placeholder{
@@ -120,11 +124,12 @@
 .continue-button button{
     width: 60%;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 112px;
     border: none;
     background-color: #22223b;
+    color: #FFF;
     padding: 0.62rem;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 } 
 
@@ -132,7 +137,6 @@
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
-    color: #FFF;
 } 
 
 .link a{

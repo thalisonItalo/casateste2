@@ -14,7 +14,7 @@ $url = "https://jsonplaceholder.typicode.com/users";
 // Inicializa a sessão CURL
 $ch = curl_init();
 
-// Define as opções da requisição CURL
+// Define as opções da requisição CURL 
 curl_setopt($ch, CURLOPT_URL, $url); // URL da requisição
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Retorna o resultado da requisição como uma string
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Permite redirecionamentos

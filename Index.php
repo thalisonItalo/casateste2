@@ -351,8 +351,9 @@ main.cards section.card.about {
 
 
 .is-rounded {
+    border: 2px solid black;
     margin-left: 455px;
-    width: 200px;
+    width: 190px;
     height: 200px;
 }
 
