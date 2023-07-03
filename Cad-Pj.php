@@ -152,11 +152,12 @@ span.sobre{
 }
 .container form{
     
-    padding-right: 200px;
+
     margin-top: 460px;
+    margin-left: -25px;
 }
 .container form .form{
-    position: absolute;
+    
     background-color: transparent;
     transition: 0.3s ease;
     margin-right: 200px;
@@ -692,13 +693,17 @@ nav.close ~ .dashboard .top{
                                 </div>
 
                             </div>
-                        </div>
+                            </div>
                                 <div class="fields">
                                     <input class="editar_dados" type="submit" value="editar" name="editar">
                                 </div>
+
+                                <div class="fields">
+                                    <input class="editar_dados" type="submit" value="enviar" name="enviar"> 
+                                </div>
                             </div>
                         </div>
-                        <button type="submit">Enviar</button>
+                        
                     </form>
 
                 </body>
